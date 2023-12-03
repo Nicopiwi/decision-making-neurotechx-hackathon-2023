@@ -8,3 +8,8 @@ Then, when trying to apply the ROIs, an error related to files not having the sa
 We couldn't solve this problem, so we attempted a "plan B" and went for a PCA using all voxels, but our computing power wasn't enough to resize all features.
 
 All attempted code is available in this repository. 
+
+## Running the experiment
+
+- Download the data from all the participants from https://openneuro.org/datasets/ds001882/versions/1.0.7
+- Run `python main.py`. This should run all the pipeline
